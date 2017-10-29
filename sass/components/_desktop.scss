@@ -1,0 +1,10 @@
+@import "../extends/variables";
+
+@media #{$desktop} {
+	@for $i from 1 through 12 {
+	    .col-md-#{$i} {
+	        width: ($column-width * $i);
+	    }
+	}
+}
+

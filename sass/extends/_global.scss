@@ -1,0 +1,37 @@
+@import "breakpoints";
+@import "variables";
+@import "placeholder";
+
+
+.container{
+	display: flex;
+	margin: 0 auto;
+	background-color: #5a1846;
+	max-width:$width-hd;
+	height: 100%;
+	@media #{$desktop} {
+		max-width: $width-desktop;
+	}
+	@media #{$tablet} {
+		max-width: $width-tablet;
+	}
+	@media #{$mobile-extra} {
+		max-width: 540px;
+	}
+	@media #{$mobile} {
+		max-width: 100%;
+	}
+
+	.row{
+		width: 100%;
+		display: flex;
+		.col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12,.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12,.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12,.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{
+			background-color:#ffffff;
+			display: block;
+			word-wrap: break-word;
+		}
+		.content{
+			padding:  0 15px;
+		}
+	}
+}

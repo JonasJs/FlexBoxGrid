@@ -1,0 +1,11 @@
+$total-columns: 12;
+
+$width-hd: 1140px;
+$width-desktop: 960px;
+$width-tablet: 720px;
+
+// $margins: 1%;
+// $padding: 1%; 
+  
+$column-calc: (100% / $total-columns);
+$column-width: $column-calc;

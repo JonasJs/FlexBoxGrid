@@ -1,9 +1,9 @@
 @import "../extends/variables";
 @import "../extends/breakpoints";
 
-@media #{$desktop} {
+@media #{$tablet} {
 	@for $i from 1 through 12 {
-	    .col-lg-#{$i} {
+	    .col-md-#{$i} {
 	        width: ($column-width * $i);
 	    }
 	}

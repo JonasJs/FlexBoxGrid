@@ -16,12 +16,14 @@
 		max-width: $width-tablet;
 	}
 	@media #{$mobile-extra} {
-		max-width: 540px;
+		max-width: $width-mobile-extra;
 	}
 	@media #{$mobile} {
 		max-width: 100%;
 	}
-
+	.justify-content{
+		justify-content:center;
+	}
 	.row{
 		width: 100%;
 		display: flex;

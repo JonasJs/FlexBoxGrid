@@ -1,4 +1,5 @@
 @import "../extends/variables";
+@import "../extends/breakpoints";
 
 @media #{$hd} {
 	@for $i from 1 through 12 {

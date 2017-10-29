@@ -9,7 +9,9 @@
 //Components
 @import "components/hd";
 @import "components/desktop";
-
+@import "components/tablet";
+@import "components/mobile-extra";
+@import "components/mobile";
 
 body,html{
 	margin: 0;
